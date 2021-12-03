@@ -23,6 +23,23 @@ body{
 .small{
     height: 540px;
 }
+.btn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    a{
+        font-size: 15px;
+        color: $color-bright;
+        text-decoration: none;
+        font-family: $font-main;
+        font-weight: bold;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+}
 
 /* Splash */
 
@@ -82,31 +99,9 @@ body{
     h4{
         font-size: 20px;
     }
-    .btn{
-        width: 200px;
-        height: 50px;
+    .btn-one{
         margin: 50px 0 0 0;
         background-color: transparent;
-        border: 2px solid $color-bright;
-        border-radius: 50px;
-        position: relative;
-        a{
-            font-size: 15px;
-            color: $color-bright;
-            text-decoration: none;
-            font-family: $font-main;
-            font-weight: bold;
-            width: 100%;
-            height: 100%;
-            display: block;
-            position: absolute;
-            top: 50%;
-            transform: translateY(-25%);
-            
-           
-            
-            
-            
-        }
+        border: 2px solid $color-bright;   
     }
 }
