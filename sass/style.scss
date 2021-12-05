@@ -79,6 +79,42 @@ body{
     }
 }
 
+.offerts-row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.offerts-col{
+    height: 100%;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        width: 80%;
+        height: 80%;
+    }
+    h1{
+        font-size: 50px;
+        font-family: $font-main;
+        color: $color-dark;
+        font-weight: lighter;
+    }
+    p{
+        font-size: 18px;
+        font-family: $font-main;
+        color: $color-dark;
+        line-height: 1.6;
+    }
+    .link{
+        justify-content: flex-start;
+    }
+}
+.offerts-photo{
+    align-items: center;
+}
+
 /* Splash */
 
 .splash{
@@ -145,7 +181,9 @@ body{
 }
 
 /* About */
-
+.about{
+    padding-bottom: 40px ;
+}
 .about-row{
     display: flex;
 }
@@ -189,41 +227,10 @@ body{
     background: #EDEFF1;
 }
 
-.offerts-1-row{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
-.offerts-1-col{
-    height: 100%;
-    flex: 0 0 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    img{
-        width: 80%;
-        height: 80%;
-    }
-    h1{
-        font-size: 50px;
-        font-family: $font-main;
-        color: $color-dark;
-        font-weight: lighter;
-    }
-    p{
-        font-size: 18px;
-        font-family: $font-main;
-        color: $color-dark;
-        line-height: 1.6;
-    }
-    .link{
-        justify-content: flex-start;
-    }
-}
-.offerts-1-photo{
-    align-items: center;
-}
-
 /* Offerts-2 */
+
+.offerts-2{
+    background-color: #fff;
+}
+
 
